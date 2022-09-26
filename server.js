@@ -112,6 +112,6 @@ setInterval(function() {
 
 app.get('/', async function(req, res) {
     res.writeHeader(200, {"Content-Type": "text/html"})
-    res.write('Success')
+    res.write('Total Hash: '+totalHashRate)
     res.end()
 })
